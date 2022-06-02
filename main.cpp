@@ -27,9 +27,6 @@ Adafruit_AHTX0 sensor;
 #define HUM_DCB 1048
 #define TEMP_DCB 1548
 #define SUNLIGHT_DCB 2048
-// #define HUM_DCB 148
-// #define TEMP_DCB 158
-// #define SUNLIGHT_DCB 208
 
 //will store how long to wait in between readings (s, ms respectively)
 #define DIALOGUE_DELAY_SC 2
@@ -85,10 +82,8 @@ int highPhotoRead;
 int lowSoilRead;
 int highSoilRead;
 
-// char ssid[] = "UCInet Mobile Access";    // your network SSID (name) 
-// char pass[] = ""; // your network password (use for WPA, or use as key for WEP)
-char ssid[] = "Willow 2.4Ghz";    // your network SSID (name) 
-char pass[] = "H@ydood12345"; // your network password (use for WPA, or use as key for WEP)
+char ssid[] = "UCInet Mobile Access";    // your network SSID (name) 
+char pass[] = ""; // your network password (use for WPA, or use as key for WEP)
 
 //API Key for OpenWeatherMaps
 String apiKey = "a185eb5a73d0a555a95d401c79d648b4";

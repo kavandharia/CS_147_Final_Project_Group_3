@@ -1,3 +1,10 @@
+/*
+UCI CS147 - Professor Maity
+Names: Michael Schuler and Kavan Dharia
+Group: 3
+Project: PlantIQ - A Smart Monitoring System
+*/
+
 #include <Arduino.h>
 #include <string.h>
 #include <stdio.h>
